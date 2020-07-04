@@ -1,0 +1,449 @@
+  body {
+                margin: 0 ;
+                padding: 0;
+            }
+
+#topbar {
+    background-color: #283e4a;
+    width:100%;
+    margin:0 auto;
+    height: 52px;                       
+    float: left;
+    position:fixed;
+    
+}
+
+
+#main{
+    position: inherit;
+}
+.items{
+    height: 33px;
+    float: left;
+     margin-top: 10px;
+     margin-bottom: 10px;
+   
+}
+
+#logo{
+    margin-left: 380px;
+    
+}
+
+#search-icon{
+    width: 12px;
+    height: 30px
+    float: left;
+    background-color: aliceblue;
+    margin-left: 15px;
+    padding-left:5px; 
+    padding-right:5px; 
+    border-top-left-radius:10%; 
+    border-bottom-left-radius:10%;
+   
+}
+
+#search-box{
+   border: none;
+    height: 31px;
+    width: 250px;
+    float: left;
+    background-color: aliceblue;
+    border-top-right-radius:2px; 
+    border-bottom-right-radius:2px;
+ 
+}
+
+.navbarTitles{
+     color: white;
+     font-family: calibri;
+     font-size: 13px;
+     float: left;
+     padding-top:22px; 
+    margin-right: 30px;
+    margin-bottom: 0;
+    position: sticky;
+}
+
+
+
+#home-icon{
+     float: left;
+    height: 22px;
+      margin-top: 9px;
+     margin-bottom: 11px;
+     margin-left: 180px;
+     
+}
+
+#home{
+    margin-left: -27px;
+}
+
+#mynetwork-icon{
+     float: left;
+     height: 37px;
+     margin-top: 4px;
+     margin-bottom: 12px;
+     margin-left: 34px;
+    
+}
+
+#mynetwork{
+    margin-left: -64px; 
+}
+
+#jobs-icon{
+    float: left;
+    height: 60px;
+    margin-bottom: 15px;
+    margin-top: -8px;
+    margin-left: 15px;
+    
+}
+#jobs{
+     margin-left: -46px;
+}
+
+#messaging-icon{
+    float: left;
+    height: 44px;
+    margin-bottom: 15px;
+    
+    }
+#messaging{
+     margin-left: -65px;
+}
+
+#notifications-icon{
+    float: left;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-left: 23px;
+    margin-top: 6px;
+   
+}
+#notifications{
+     margin-left: -66px;
+}
+
+#profile-icon{
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 13px;
+    margin-left: 38px;
+    margin-top: 6px;
+    border-radius:50%;
+    border: 2px solid white;
+}
+#profile{
+     margin-left: -38px;
+}
+
+#dropdown-profile
+{   height: 50px;
+    float: left;
+    padding-top: 7px;
+    margin-left: -32px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+#seperation-line{
+    margin-left:8px; 
+    width: .5px ;
+    height: 60px;
+    background-color: white;
+    opacity: 25%;
+    float: left;
+    }
+
+#work-icon{
+    float: left;
+    margin-left: 12px;
+    margin-top: 2px;
+    margin-bottom: 13px;
+    height: 39px;
+  
+}
+
+#work{
+    margin-left: -52px;
+     
+}
+#dropdown-work
+{
+    height: 50px;
+    float: left;
+    padding-top: 6px;
+    margin-left: -40px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+   
+}
+
+#premium{
+    font-family: calibri;
+    font-size: 13px;
+    color: #dccea4;
+    float:left;
+    text-align: center;
+   
+}
+
+#premium:hover{
+    text-decoration:underline;
+}
+
+.clear{
+    clear: both;
+}
+
+#leftbar-1{
+    
+    float: left;
+    margin-top: 70px;
+    margin-left: 380px;
+    height: 360px;
+    width: 220px;
+   border:1px  solid;
+   border-color: rgba(0,0,0,.25);
+}
+#image-bg{
+    
+    background-size: 462px;
+/*    width: inherit;*/
+}
+#profile-bg{
+    background-image: url(sources/profilebg.svg);
+    width:inherit;
+    height: 60px;
+    float: left;
+}
+
+#profile-pic{
+    border: 3px solid;
+    border-color: rgb(255,255,255);
+    border-radius:50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 75px;
+    margin-top: -35px;
+    
+}
+
+a{
+     text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+#profilename {
+    font-family: calibri;
+ text-align: center;
+    color: black;
+    text-decoration: none;
+   font-size: 20px;
+    font-weight:400;
+}
+#workdetails{
+    font-family:calibri;
+    text-align: center;
+}
+
+.line{
+    width:inherit;
+    height: 1px;
+    background-color: rgba(0,0,0,.20);
+}
+
+.connectionline{
+    margin-left: 5px;
+    font-family:calibri;
+    font-size: 13px;
+}
+
+#connection-spacing{
+     font-family:calibri;
+    margin-left: 122px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+#exclusive{
+    font-family:calibri;
+    font-size: 12px;
+    padding-top: 15px;
+    margin-left: 10px;
+    color: rgba(0,0,0,.70);
+}
+
+#trypremium{
+    font-family:calibri;
+     margin-left: 14px;
+     margin-top: -8px;
+     margin-bottom: 18px;
+     font-size: 13px;
+    font-weight: bold;
+     color: rgba(0,0,0,.80);
+}
+        
+#saveditems{  
+font-family:calibri;
+     margin-left: 30px;
+     margin-top: -31px;
+}
+
+#leftbar-2{
+    margin-left: -1px;
+    float: left;
+    height: 200px;
+    width: 220px;
+   border:1px  solid;
+   border-color: rgba(0,0,0,.20);
+   font-size: 14px;
+    font-weight: 250;
+}
+
+.leftbar-words{
+    font-family:calibri;
+    margin-left: 10px;
+}
+
+.blue{
+    color: dodgerblue;
+}
+.discover{
+    text-align: center;
+    font-family:calibri;
+    font-size: 14px;
+    font-weight: 490;
+}
+
+#leftbar-2 a:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+#postbox{
+    width: 550px;
+    height: 130px;
+    border: 1px solid;
+    float: left;
+    border-color: rgba(0,0,0,.20);
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+#startpost{
+    margin-top: 6px;
+    width:150px;
+    padding-left: 20px;
+    margin-bottom: -10px;;
+}
+
+.line1{
+    
+    width:510px;
+   margin-left: 20px;
+}
+
+
+#post-photo{
+    width:105px;
+    
+    margin-left: 10px;
+    float: left;
+    }
+
+#post-video{
+    width:110px;
+    margin-left: 10px;
+   float: left;
+    margin-top:-5px; 
+    }
+ #post-document{
+    width:140px;
+/*    margin-left: 10px;*/
+   float: left;
+  margin-top:-13px; 
+    }
+#post-article{
+    width:150px;
+/*    margin-left: 10px;*/
+   float: left;
+/*  margin-top:-13px; */
+    }
+.new-posts{
+    width: 550px;
+    height: 450px;
+    border: 1px solid;
+    float: left;
+    border-color: rgba(0,0,0,.20);
+    margin-left: -552px;
+    margin-top: 230px;
+    background-image: url(sources/contenthere.png);
+}
+
+#one{
+    margin-top: 700px;
+    )
+}
+
+#two{
+    margin-top: 1170px;
+}
+#line3{
+    float: left;
+    height: 2px;
+    background-color: black;
+}
+
+#news{
+    float: left;
+    margin-top: 70px;
+    margin-left: 30px;
+    height: 360px;
+    width: 320px;
+   border:1px  solid;
+   border-color: rgba(0,0,0,.25);
+}
+#feed{
+    float: left;
+    margin-top: 470px;
+    margin-left: -322px;
+    height: 360px;
+    width: 320px;
+   border:1px  solid;
+   border-color: rgba(0,0,0,.25);
+}
+
+#news-content{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: calibri;
+}
+
+#bottombar{
+  background-color:#283e4a;
+  padding-top: 5px;
+  width: 250px;
+  height: 45px;
+  float:right;
+  margin-top:550px;
+  margin-right:50px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
+#messaging-chat{
+    font-family: calibri;
+    color: white;
+    margin-top:-5px;
+  
+}
